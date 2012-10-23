@@ -9,7 +9,7 @@ using TinyIoC;
 
 namespace WorldDomination.Web.IntegrationTest.NancyFX
 {
-    public class BootStrapper : DefaultNancyBootstrapper
+    public class Bootstrapper : DefaultNancyBootstrapper
     {
         protected override void ApplicationStartup(TinyIoCContainer container, IPipelines pipelines)
         {
